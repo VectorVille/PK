@@ -2,10 +2,82 @@
 
 :root{
     --darkgreen: #1A535C;
+    --white: #F7FFF7;
+    --lightgreen: #4ECDC4;
+    --red: #FF6B6B;
+    --yellow: #FFE66D;
 }
 
 body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 1400px;
+    margin-left: 260px;
+    background-color: var(--white);
 }
 
-#wikiwhite
+h1{
+    font-size: 54px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--yellow);
+}
+
+header img{
+    height: 200px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    margin: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.section1{
+
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-box div{
+    text-align: center;
+}
+
+.flex-box img{
+    width: 100px;
+}
+
+.flex-box button{
+    border: none;
+    background-color: var(--red);
+    border-radius: 15px;
+}
+
+footer{
+    background-color: var(--darkgreen);
+}
