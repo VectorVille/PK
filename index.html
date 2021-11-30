@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <img src="img/37387.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href="">Дополнительные источники</a></li>
+                    <li><a href="">Подписка</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="section1">
+                <h1>Основная информация</h1>
+                <div>
+                    <h2>HTTP</h2>
+                    <p>HTTP (англ. HyperText Transfer Protocol — «протокол передачи гипертекста») — протокол прикладного уровня передачи данных, изначально — в виде гипертекстовых документов в формате HTML, 
+                        в настоящее время используется для передачи произвольных данных. 
+                        Основой HTTP является технология «клиент-сервер», то есть предполагается существование: Потребителей (клиентов), которые инициируют соединение и посылают запрос.</p>
+                    <figure>
+                        <img src="img/http.jpg" alt="http">
+                        <figcaption><p>http запрос</p></figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <h2>HTTPs</h2>
+                    <p>HTTPS (аббр. от англ. HyperText Transfer Protocol Secure) — расширение протокола HTTP для поддержки шифрования в целях повышения безопасности. 
+                        Данные в протоколе HTTPS передаются поверх криптографических протоколов TLS или устаревшего в 2015 году SSL. 
+                        В отличие от HTTP с TCP-портом 80, для HTTPS по умолчанию используется TCP-порт 443. Протокол был разработан компанией Netscape Communications для браузера Netscape Navigator в 1994 году.</p>
+                    <figure>
+                        <img src="img/https.jpg" alt="https">
+                        <figcaption><p>https запрос</p></figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section class="add-sources">
+                <h2>Дополнительные источники</h2>
+                <div class="flex-box">
+                    <div>
+                        <img src="img/wikiwhite.png" alt="wikipedia">
+                        <h3>Wikipedia</h3>
+                        <button id="wikiwhite" onclick="document.location.href = 'https://ru.wikipedia.org/wiki/HTTP';"><p>Перейти к источнику</p></button>
+                    </div>
+                    <div>
+                        <img src="img/wikired.png" alt="wikipedia">
+                        <h3>Wikipedia</h3>
+                        <button id="wikired" onclick="document.location.href = 'https://ru.wikipedia.org/wiki/HTTPS';"><p>Перейти к источнику</p></button>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><p>Бехтерев Виктор Владимирович</p></li>
+                    <li><p>201-324</p></li>
+                    <li><p>30.11.2021</p></li>
+                </ul>
+                <form action="mailto:nagavkinviktor@gmail.com" enctype="text/plain">
+                    <input type="submit">
+                    <label>Подписаться на обновления страницы</label>
+                </form>
+            </footer>
+        </main>
+    </body>
+</html>
